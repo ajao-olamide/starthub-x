@@ -3,6 +3,9 @@
   padding: 0%;
   box-sizing: border-box;
 }
+p{
+  line-height: 20px;
+}
 body {
   font-family: Arial;
   color: #090909;
@@ -186,6 +189,119 @@ main h1 {
 .lorem-features {
   text-align: center;
   width: 600px;
+  margin-bottom: 100px;
+}
+.icon-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4em;
+  flex-wrap: wrap;
+  margin-bottom: 100px;
+}
+.a-long-div {
+  /* padding: 20px;
+  border:  2px solid #948282; */
+  width: 400px;
+  display: flex;
+  text-align: center;
+  gap: 1em;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.browse-div {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3em;
+  margin-top: 50px;
+}
+.get-second {
+  padding: 10px;
+  border-radius: 5px;
+  background: #1e1e1e;
+  color: #fff;
+}
+.browse-text {
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 4px 16px rgb(0 0 0 / 10%);
+}
+.two-section {
+  display: flex;
+  padding: 50px 0 80px;
+  background: #090909;
+  gap: 6em;
+}
+.glass-div{
+  margin-left: 40px;
+  position: relative;
+}
+.glass-lady{
+  width: 400px;
+}
+.facebook-img{
+  width: 300px;
+  position: absolute;
+  left: 150px;
+  top: 64%;  
+}
+.product-div p {
+  line-height: 35px;
+}
+.product-div{
+  display: flex;
+  flex-direction: column;
+  width: 540px;
+  /* background: #ee4346; */
+  color: #fff;
+}
+.product-text{
+  width: 110px;
+  padding: 10px;
+  border-radius: 5px;
+  color: #1e1e1e;
+  background: #f4b52b;
+}
+.next-gen{
+font-size: 40px;
+line-height: 50px;
+}
+.ipsum{
+  line-height: 20px;
+}
+.light-div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2em;
+}
+.fa-lightbulb{
+  font-size: 35px;
+}
+.fa-lock{
+  font-size: 35px;
+}
+.third-start{
+  color: #1e1e1e;
+  background: #fff;
+  padding: 10px;
+  width: 100px;
+  line-height: 0%;
+  border-radius: 5px;
+}
+@media (max-width: 750px) {
+  .unique-text {
+    width: 95%;
+  }
+  .lorem-features {
+    width: 95%;
+  }
+  .a-long-div {
+    width: 95%;
+  }
 }
 @media (max-width: 800px) {
   .checkbox:checked + .mother-div .white-line {
@@ -290,10 +406,18 @@ main h1 {
     top: 70%;
     right: 0%;
   }
-  main{
+  main {
     gap: 1em;
   }
-  .first-section{
+  .first-section {
     margin: 10px 0;
+  }
+  .unique-text {
+    font-size: 40px;
+  }
+  .browse-div {
+    margin: 0;
+    gap: 1em;
+    flex-direction: column;
   }
 }
